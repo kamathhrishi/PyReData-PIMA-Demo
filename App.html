@@ -1,0 +1,145 @@
+<html>
+
+
+<head>
+<title>Analysis of Diabetes Mellitus</title><link href='Custom.css' rel='stylesheet'><link href='https://fonts.googleapis.com/css?family=Averia Sans Libre' rel='stylesheet'><link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+</head>
+
+<body style="background:rgb(236, 236, 221);">
+
+<div style="border:1px solid black;width:1400px;background:white;margin-left:120px;padding-left:50px;"><h1 style="text-align:center;font-family:'Averia Sans Libre';">Analysis of Diabetes Mellitus</h1>
+<br></br>
+<center><div style="background:rgb(235, 235, 224);padding:10px;width:1250px;"><center><h3 style="margin-right:10px"><u>Abstract</u></h3>
+</center><p style="text-align:justify;margin:20px;">The population for this study was the Pima Indian population near
+Phoenix, Arizona. That population has been under continuous
+study since 1965 by the National Institute of Diabetes and
+Digestive and Kidney Diseases because of its high incidence rate
+of diabetes.Each community resident over 5 years of age
+was asked to undergo a standardized examination every two years,
+which included an oral glucose tolerance test. Diabetes was
+diagnosed according to World Health Organization Criteria;
+that is, if the 2 hour post-load plasma glucose was at least 200
+mg/dl (11.1 mmol/l) at any survey examination or if the Indian
+Health Service Hospital serving the community found a glucose
+concentration of at least 200 mg/dl during the course of routine
+medical care. In addition to being a familiar database to the
+investigators, this data set provided a well validated data resource
+in which to explore prediction of the date of onset of diabetes in a
+longitudinal manner.
+</p>
+</div>
+</center><br></br>
+<center><img height="400" style="height:250px;width:400px;border-radius:10px;" width="400" src="PIMA.png"></img>
+</center><br></br>
+<center><h2><u>Dataset Attributes</u></h2>
+</center><p>The following are the attributes of the dataset</p>
+<ul><li><b>Pregnancies:</b> Number of times pregnant</li>
+<li><b>Glucose:</b> Plasma glucose concentration a 2 hours in an oral glucose tolerance test</li>
+<li><b>BloodPressure:</b> Diastolic blood pressure (mm Hg)</li>
+<li><b>SkinThickness:</b> Triceps skin fold thickness (mm)</li>
+<li><b>Insulin:</b> 2-Hour serum insulin (mu U/ml)</li>
+<li><b>BMI: </b> Body mass index (weight in kg/(height in m)^2)</li>
+<li><b>DiabetesPedigreeFunction:</b> Diabetes pedigree function</li>
+<li><b>Age:</b>Age (years)</li>
+<li><b>Outcome:</b>Class variable (0 or 1)</li>
+</ul>
+<center><h2><u>Sample Data</u></h2>
+</center><p>The below table shows a sample of data columns and rows</p>
+<center><table style="border:1px solid black;"><center><tr style="border:1px solid black;"><center><th style="border:1px solid black;">Pregnancies</th>
+</center><center><th style="border:1px solid black;">Glucose</th>
+</center><center><th style="border:1px solid black;">BloodPressure</th>
+</center><center><th style="border:1px solid black;">SkinThickness</th>
+</center><center><th style="border:1px solid black;">Insulin</th>
+</center><center><th style="border:1px solid black;">BMI</th>
+</center><center><th style="border:1px solid black;">DiabetesPedigreeFunction</th>
+</center><center><th style="border:1px solid black;">Age</th>
+</center><center><th style="border:1px solid black;">Outcome</th>
+</center></tr>
+</center><center><tr style="border:1px solid black;"><center><td style="border:1px solid black;">1</td>
+</center><center><td style="border:1px solid black;">85</td>
+</center><center><td style="border:1px solid black;">66</td>
+</center><center><td style="border:1px solid black;">29</td>
+</center><center><td style="border:1px solid black;">0</td>
+</center><center><td style="border:1px solid black;">26.6</td>
+</center><center><td style="border:1px solid black;">0.351</td>
+</center><center><td style="border:1px solid black;">31</td>
+</center><center><td style="border:1px solid black;">0</td>
+</center></tr>
+</center><center><tr style="border:1px solid black;"><center><td style="border:1px solid black;">8</td>
+</center><center><td style="border:1px solid black;">183</td>
+</center><center><td style="border:1px solid black;">64</td>
+</center><center><td style="border:1px solid black;">0</td>
+</center><center><td style="border:1px solid black;">0</td>
+</center><center><td style="border:1px solid black;">23.3</td>
+</center><center><td style="border:1px solid black;">0.672</td>
+</center><center><td style="border:1px solid black;">32</td>
+</center><center><td style="border:1px solid black;">1</td>
+</center></tr>
+</center><center><tr style="border:1px solid black;"><center><td style="border:1px solid black;">1</td>
+</center><center><td style="border:1px solid black;">89</td>
+</center><center><td style="border:1px solid black;">66</td>
+</center><center><td style="border:1px solid black;">23</td>
+</center><center><td style="border:1px solid black;">94</td>
+</center><center><td style="border:1px solid black;">28.1</td>
+</center><center><td style="border:1px solid black;">0.167</td>
+</center><center><td style="border:1px solid black;">21</td>
+</center><center><td style="border:1px solid black;">0</td>
+</center></tr>
+</center><center><tr style="border:1px solid black;"><center><td style="border:1px solid black;">0</td>
+</center><center><td style="border:1px solid black;">137</td>
+</center><center><td style="border:1px solid black;">40</td>
+</center><center><td style="border:1px solid black;">35</td>
+</center><center><td style="border:1px solid black;">168</td>
+</center><center><td style="border:1px solid black;">43.1</td>
+</center><center><td style="border:1px solid black;">2.288</td>
+</center><center><td style="border:1px solid black;">33</td>
+</center><center><td style="border:1px solid black;">1</td>
+</center></tr>
+</center></table>
+</center><br></br>
+<center><h2><u><b>Distribution of Variables</b></u></h2>
+</center><center><h3>By Frequency</h3>
+</center><h4 style="margin-right:800px">Positive Outcomes</h4>
+<img height="300" width="300" src="0.png"></img>
+<img height="300" width="300" src="1.png"></img>
+<img height="300" width="300" src="2.png"></img>
+<img height="300" width="300" src="3.png"></img>
+<img height="300" width="300" src="4.png"></img>
+<img height="300" width="300" src="5.png"></img>
+<img height="300" width="300" src="6.png"></img>
+<img height="300" width="300" src="7.png"></img>
+<h4 style="margin-right:800px">Negative Outcomes</h4>
+<img height="300" width="300" src="8.png"></img>
+<img height="300" width="300" src="9.png"></img>
+<img height="300" width="300" src="10.png"></img>
+<img height="300" width="300" src="11.png"></img>
+<img height="300" width="300" src="12.png"></img>
+<img height="300" width="300" src="13.png"></img>
+<img height="300" width="300" src="14.png"></img>
+<img height="300" width="300" src="15.png"></img>
+<center><h3>By Distribution</h3>
+</center><h4 style="margin-right:800px">Negative Outcomes</h4>
+<img height="300" width="300" src="16.png"></img>
+<img height="300" width="300" src="17.png"></img>
+<img height="300" width="300" src="18.png"></img>
+<img height="300" width="300" src="19.png"></img>
+<img height="300" width="300" src="20.png"></img>
+<img height="300" width="300" src="21.png"></img>
+<img height="300" width="300" src="22.png"></img>
+<img height="300" width="300" src="23.png"></img>
+<h4 style="margin-right:800px">Negative Outcomes</h4>
+<img height="300" width="300" src="24.png"></img>
+<img height="300" width="300" src="25.png"></img>
+<img height="300" width="300" src="26.png"></img>
+<img height="300" width="300" src="27.png"></img>
+<img height="300" width="300" src="28.png"></img>
+<img height="300" width="300" src="29.png"></img>
+<img height="300" width="300" src="30.png"></img>
+<img height="300" width="300" src="31.png"></img>
+</div>
+
+
+</body>
+
+
+</html>
